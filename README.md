@@ -8,3 +8,4 @@ The app uses a cron job to automate data fetching and ensures scalability for pr
 
 
 The service has been hosted onto an AWS EC2 instance : http://16.171.113.155:3000/. Please navigate to the required routes : /stats, /deviation with the query params for access.
+eg : http://16.171.113.155:3000/stats?coin=ethereum | http://16.171.113.155:3000/deviation?coin=bitcoin
